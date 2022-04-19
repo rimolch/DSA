@@ -1,3 +1,4 @@
+// time complexity 0(n)
 #include<bits/stdc++.h>
 
 using namespace std;
