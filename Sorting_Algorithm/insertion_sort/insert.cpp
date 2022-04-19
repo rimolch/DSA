@@ -18,7 +18,7 @@ int main()
         int j = i-1;
         while(ar[j]>current&&j>=0)
         {
-            ar[j+1]=ar[j];
+            ar[j+1]=ar[j];// or you can use swap(ar[j+1],ar[j]);
             j--;
         }
         ar[j+1]=current;
