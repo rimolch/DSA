@@ -1,4 +1,5 @@
 //sliding window algorithm
+//We can use this technique to find max/min k-subarray, XOR, product, sum, etc.
 #include<bits/stdc++.h>
 #define checkmate return 0
 #define endl '\n'
