@@ -23,13 +23,13 @@ int Maximum_Sum_Subarray(int arr[],int n)	//Overall Time Complexity O(n)
 int main()
 {
      ios::sync_with_stdio(0);
-	 cin.tie(0);
+     cin.tie(0);
      int n;
      cin>>n;
      int arr[n];
      for(int i=0;i<n;i++){
         cin>>arr[i];
      }
-	 cout<<Maximum_Sum_Subarray(arr,n)<<"\n";
-	return 0;
+     cout<<Maximum_Sum_Subarray(arr,n)<<"\n";
+    return 0;
 }
