@@ -5,24 +5,23 @@ using namespace std;
 
 int main()
 {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+    ios::sync_with_stdio(0);
+    cin.tie(0);
     ll n,m;
     cin>>n>>m;
     ll ar[n+1];
     for(int i = 1;i <=n; i++){
        cin>>ar[i];
     }
-    long long k = 0, c= 0;
-    for(int l= 1,r= 1; r <=n; r++)
-    {
-        c+=ar[r];
-        while(c>m)
-        {
-            c-=ar[l++];
+    int maxi = INT_MIN,sum=0;
+    for(int left =1,right =1;right<=n;right++){
+        sum+=ar[right];
+        while(sum>m){
+            sum-=ar[left];
+            left++;
         }
-       k = max(k,c);
+        maxi= max(maxi,sum);
     }
-    cout<<k<<endl;
+    cout<<maxi<<endl;
 	return 0;
 }
