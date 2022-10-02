@@ -17,7 +17,7 @@ int main()
     for(int i=0;i<n;i++){
         ans =max(ans,ar[i]);
     }
-    if(ans<0{
+    if(ans<0){
        cout<<ans<<endl;
     }
     for(int i=0;i<n;i++){
@@ -33,6 +33,10 @@ int main()
         }
      }
      cout<<ans<<endl;
-     cout<<start<<" "<<end;
+     cout<<start<<" "<<end<<endl;
+     cout<<"The subarray  where the max_sum is present is "<<endl;
+        for(int i=start;i<=end;i++){
+            cout<<ar[i]<<" ";
+        }
 	return 0;
 }
