@@ -16,7 +16,7 @@ int main()
     for(int i=1;i<=at;i++){
       cin>>ar[i];
     }
-    int m_s = 0, m_p = 0,c_p = 0;
+    int m_s = 0, m_p = 0,c_p = 0;//m_s for maximum steps,c_s for current steps,m_p for max people and c_p for current people
     for(int left = 1, right = 1; right <=at; right++)
     {
         c_p+=ar[right];
