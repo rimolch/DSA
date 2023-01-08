@@ -1,8 +1,9 @@
-## It'll look like this.....
-
+```
+It'll look like this.....
 6
 1 2 2 3 1 5
 1--> 1 5
 2--> 2 3
 3--> 4
 5--> 6
+```
